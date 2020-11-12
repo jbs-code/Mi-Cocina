@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+header, nav, main, section, article, figure, figcaption, footer, h1, img, div, ul{
+    display: block;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#contenedor{
+    width:100%;
+    margin:0 auto;
+    max-width: 1920px;
+    border: solid black;
+    overflow: hidden;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    max-width: 1920px;
+    padding:15px 0px;
+    background-color:transparent;
+}
+
+header h1{
+    float: left;
+    margin: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #fff;
+}
+
+nav{
+    float: right;
+    margin: 15px 0px;
+}
+
+ul{
+    margin: 15px 0px;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.recovery{
+    clear: both;
+}
+
+main{
+    margin: 0px auto;
+}
+
+main figure img{
+    width: 100%;
+}

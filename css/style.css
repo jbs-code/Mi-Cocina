@@ -1,33 +1,37 @@
-*{
+* {
     margin: 0px;
-    padding:0px;
+    padding: 0px;
 }
 
-header, nav, main, section, article, figure, figcaption, footer, h1, img, div, ul{
+header, nav, main, section, article, figure, figcaption, footer, h1, img, div, ul {
     display: block;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
-#contenedor{
-    width:100%;
-    margin:0 auto;
+#contenedor {
+    width: 100%;
+    margin: 0 auto;
     max-width: 1920px;
     border: solid black;
     overflow: hidden;
 }
 
-header{
+/*/////////////////////
+    Header section
+  ////////////////////*/
+
+header {
     position: fixed;
     width: 100%;
     max-width: 1920px;
-    padding:15px 0px;
-    background-color:transparent;
+    padding: 15px 0px;
+    background-color: transparent;
 }
 
-header h1{
+header h1 {
     float: left;
     margin: 10px 20px;
     font-family: 'Roboto', sans-serif;
@@ -35,33 +39,113 @@ header h1{
     color: #fff;
 }
 
-nav{
+nav {
     float: right;
     margin: 15px 0px;
 }
 
-ul{
+ul {
     margin: 15px 0px;
 }
 
-li{
+li {
     display: inline-block;
     list-style: none;
     padding: 0px 20px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #fff;
 }
-.recovery{
+
+.recovery {
     clear: both;
 }
 
-main{
+main {
     margin: 0px auto;
 }
 
-main figure img{
+main figure img {
+    width: 100%;
+}
+
+/*/////////////////////
+    sobre nosotros section
+  ////////////////////*/
+
+section {
+    margin-top: 60px;
+}
+
+#nosotros article {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#nosotros .texto {
+    padding: 10% 40px;
+    text-align: justify;
+}
+
+#nosotros article figure img {
+    border-radius: 20px;
+}
+
+/*/////////////////////
+    Nuestros chefs
+////////////////////*/
+
+#chef article{
+    padding: 10px 40px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#chef article h1{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#chef figure {
+    display: inline-block;
+    width: 30%;
+    margin: 0px 1%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#chef article figure img{
+    width: 100%;
+}
+
+#chef article div{
+    width: 100%;
+    box-sizing: border-box;
+}
+#chef article div p{
+    display: inline-block;
+    width: 30%;
+    margin: 0px 1%;    
+}
+
+
+/*/////////////////////
+    Nuestro menú
+////////////////////*/
+
+#menu{
+    text-align: center;
+}
+
+#menu div{
+    display: inline-block;
+    width: 30%;
+}
+
+#menu div img{
     width: 100%;
 }

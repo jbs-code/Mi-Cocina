@@ -188,7 +188,7 @@ section {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 0;
-    transition: 0.5;
+    transition: 0.5s;
     cursor: pointer;
 }
 

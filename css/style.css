@@ -118,7 +118,15 @@ section {
     overflow: hidden;
 }
 
-#chef article figure img{
+#chef article figure div{
+    position: relative;
+    width: 100%;
+}
+#chef article figure div:hover .redes{
+    opacity: 1;
+}
+
+#chef article figure div img{
     width: 100%;
 }
 
@@ -132,6 +140,25 @@ section {
     margin: 0px 1%;    
 }
 
+#chef article figure div .redes{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    padding-top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#chef article figure div .redes a{
+    margin: 20px;
+}
+
+#chef article figure div .redes i{
+    scale: 2;
+}
 
 /*/////////////////////
     Nuestro menú
@@ -141,11 +168,30 @@ section {
     text-align: center;
 }
 
-#menu div{
+#menu .menuContainer{
     display: inline-block;
     width: 30%;
+    position: relative;
 }
 
-#menu div img{
+.menuContainer img{
     width: 100%;
+}
+
+.menuContainer .verMenu{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 15%;
+    top: 0px;
+    left: 0px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 0.5;
+    cursor: pointer;
+}
+
+#menu .menuContainer:hover .verMenu{
+    opacity: 1;
 }

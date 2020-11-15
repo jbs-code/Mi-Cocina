@@ -1,21 +1,25 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
 }
 
 header, nav, main, section, article, figure, figcaption, footer, h1, img, div, ul {
     display: block;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
+h1{
+    font-size: 23px;
+}
+h2{
+    font-size: 21px;
 }
 
 #contenedor {
     width: 100%;
     margin: 0 auto;
     max-width: 1920px;
-    border: solid black;
     overflow: hidden;
 }
 
@@ -34,7 +38,6 @@ header {
 header h1 {
     float: left;
     margin: 10px 20px;
-    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     color: #fff;
 }
@@ -172,6 +175,7 @@ section {
     display: inline-block;
     width: 30%;
     position: relative;
+    overflow: hidden;
 }
 
 .menuContainer img{

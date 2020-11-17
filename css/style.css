@@ -124,13 +124,20 @@ section {
 #chef article figure div{
     position: relative;
     width: 100%;
+    overflow: hidden;
 }
+
 #chef article figure div:hover .redes{
     opacity: 1;
 }
 
+#chef article figure div:hover img{
+    scale: 0.7;
+}
+
 #chef article figure div img{
     width: 100%;
+    transition: 0.5s;
 }
 
 #chef article div{
@@ -150,7 +157,7 @@ section {
     top: 0px;
     left: 0px;
     padding-top: 50%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     opacity: 0;
     transition: 0.5s;
 }
@@ -169,6 +176,12 @@ section {
 
 #menu{
     text-align: center;
+    padding: 10px 40px;
+}
+
+#menu h1{
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 #menu .menuContainer{
@@ -180,6 +193,7 @@ section {
 
 .menuContainer img{
     width: 100%;
+    transition: 0.5s;
 }
 
 .menuContainer .verMenu{
@@ -198,4 +212,7 @@ section {
 
 #menu .menuContainer:hover .verMenu{
     opacity: 1;
+}
+#menu .menuContainer:hover img{
+    scale: 1.5;
 }

@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Handlee', cursive;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 header, nav, main, section, article, figure, figcaption, footer, h1, img, div, ul {
@@ -10,10 +10,10 @@ header, nav, main, section, article, figure, figcaption, footer, h1, img, div, u
 }
 
 h1{
-    font-size: 23px;
+    font-size: 25px;
 }
 h2{
-    font-size: 21px;
+    font-size: 20x;
 }
 
 #contenedor {
@@ -215,4 +215,68 @@ section {
 }
 #menu .menuContainer:hover img{
     scale: 1.5;
+}
+
+/*/////////////////////
+    Opiniones
+////////////////////*/
+
+#opiniones{
+    margin: 0px auto;
+    background-image: url("../img/principal3.jpg");    
+    width: 85%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#opiniones article{
+    padding: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*/////////////////////
+    Footer
+////////////////////*/
+
+footer{
+    padding: 10px 40px;
+    text-align: center;
+}
+
+footer article{
+    display: inline-block;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+footer .formulario{
+    text-align: left;
+    width: 50%; 
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 20px 50px;
+}
+
+footer .redes{
+    width: 45%;
+    padding-bottom: 20px;
+}
+footer .redes a{
+    color: red;
+}
+
+input{
+    border: none;
+    border-bottom: solid red;
+}
+
+textarea{
+    margin-top: 20px;
+    border:none;
+    border-bottom: solid red;
 }

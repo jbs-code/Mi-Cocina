@@ -11,9 +11,11 @@ header, nav, main, section, article, figure, figcaption, footer, h1, img, div, u
 
 h1{
     font-size: 25px;
+    text-shadow: #d46887 3px 3px 5px;
 }
 h2{
     font-size: 20x;
+    text-shadow: rgba(246, 98, 43, 0.7) 1px 1px 2px;
 }
 
 #contenedor {
@@ -33,13 +35,15 @@ header {
     max-width: 1920px;
     padding: 15px 0px;
     background-color: transparent;
+    z-index: 3;
 }
 
-header h1 {
+header #titulo {
     float: left;
     margin: 10px 20px;
     font-size: 50px;
     color: #fff;
+    text-shadow: none;
 }
 
 nav {
@@ -105,7 +109,7 @@ section {
 #chef article{
     padding: 10px 40px;
     text-align: center;
-    box-sizing: border-box;
+    box-sizing: border-box;  
 }
 
 #chef article h1{
@@ -118,7 +122,7 @@ section {
     width: 30%;
     margin: 0px 1%;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow: hidden;    
 }
 
 #chef article figure div{
@@ -244,17 +248,19 @@ section {
 ////////////////////*/
 
 footer{
+    margin-top: 60px;
     padding: 10px 40px;
     text-align: center;
 }
 
 footer article{
-    display: inline-block;
+    display: block;
     margin: auto;
     box-sizing: border-box;
 }
 
 footer .formulario{
+    float: left;
     text-align: left;
     width: 50%; 
     overflow: hidden;
@@ -263,20 +269,34 @@ footer .formulario{
 }
 
 footer .redes{
+    float: right;
     width: 45%;
-    padding-bottom: 20px;
+    padding: 20px 0px;
 }
-footer .redes a{
+
+footer .redes span a{
     color: red;
+}
+
+footer .redes a :not(.pix){
+    color: red;
+    margin: 10px 15px;
+}
+
+footer .redes a i{
+    scale: 1.5;
 }
 
 input{
     border: none;
     border-bottom: solid red;
+    margin-right: 40px;
+    width: 100%;
 }
 
 textarea{
     margin-top: 20px;
     border:none;
     border-bottom: solid red;
+    width: 200%;
 }

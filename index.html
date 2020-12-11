@@ -14,7 +14,7 @@
 <body>
     <div id="contenedor">
         <header id="cabecera">
-            <h1>Mi-Cocina</h1>
+            <h1 id="titulo">Mi-Cocina</h1>
 
             <nav id="nav">
                 <ul>
@@ -151,16 +151,16 @@
                     <ul>
                         <li>
                             <!--<label for="name">Nombre:</label>-->
-                            <input type="text" id="name" name="user_name" value="Nombre">
+                            <input type="text" id="name" name="user_name" placeholder="Nombre">
                         </li>
                         <li>
                             <!--<label for="mail">Correo electrónico:</label>-->
-                            <input type="email" id="mail" name="user_mail" value="Email">
+                            <input type="email" id="mail" name="user_mail" placeholder="Email">
                         </li>
                         <br>
                         <li>
                             <!--<label for="msg">Mensaje:</label>-->
-                            <textarea id="msg" name="user_message">PLatícanos</textarea>
+                            <textarea id="msg" name="user_message" placeholder="Platícanos"></textarea>
                         </li>
                     </ul>
                 </form>
@@ -172,12 +172,13 @@
                 <a href=""><i class="fab fa-twitter"></i></a>
                 <a href=""><i class="fab fa-youtube"></i></a>
 
-                <br>
-                <span>Todas las fotografías fueron tomadas de <a href="https://pixabay.com/es/">Pixabay</a></span>
-                <br>
+                <br><br>
+                <span>Todas las fotografías fueron tomadas de <a class="pix" href="https://pixabay.com/es/">Pixabay</a></span>
+                <br><br>
                 <i class="far fa-copyright"></i>
                 <span>Derechos reservados 2020</span>
             </article>
+            <div class="recovery"></div>
         </footer>
     </div>
 </body>
